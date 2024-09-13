@@ -5,7 +5,7 @@ expect.extend(matchers);
 
 const config: PlaywrightTestConfig = {
   use: {
-    headless: false, // Disable headless mode globally
+    headless: true, // Disable headless mode globally
     viewport: null
   },
   projects: [
