@@ -1,0 +1,34 @@
+{
+  "name": "playwright-test-boilerplate",
+  "version": "1.0.0",
+  "description": "Playwright and Playwright Test end-to-end test automation boilerplate, using TypeScript and Playwright Expect.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elaichenkov/playwright-test-boilerplate.git"
+  },
+  "keywords": [
+    "playwright",
+    "boilerplate",
+    "automation",
+    "testing",
+    "e2e",
+    "expect",
+    "typescript"
+  ],
+  "author": "Yevhen Laichenkov <elaichenkov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elaichenkov/playwright-test-boilerplate/issues"
+  },
+  "homepage": "https://github.com/elaichenkov/playwright-test-boilerplate#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.12.3",
+    "playwright": "^1.12.3",
+    "playwright-expect": "^0.1.2",
+    "typescript": "^4.3.4"
+  }
+}
